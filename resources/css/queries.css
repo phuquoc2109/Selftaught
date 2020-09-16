@@ -1,0 +1,226 @@
+@media only screen and (max-width:1200px){
+ html{
+     font-size: 16px;
+ }
+ .heading-main-box{
+     transform: translate(-35%, -50%);
+ }
+ form{
+     margin-left: 10%;
+ }
+}
+
+@media only screen and (max-width:1023px){
+ 
+    .logo{
+        width: 300px;
+        margin-left: 40px;
+    }
+    .main-nav{
+        margin-top: 40px;
+        margin-right: 15px;
+    }
+    .main-nav li{
+        margin-right: 10px;
+    }
+    .heading-main-box{
+        transform: translate(-20%,-50%);
+    }
+    .row h2{
+        margin-left: -40%;
+    }
+    .p-long{
+        margin-left: -5%;
+    }
+    .picture-title{
+        left: 20%;
+    }
+    .about-picture{
+        margin-right: -100px;
+    }
+    .about-picture img{
+        width: 50%;
+        margin-left: -10%;
+    }
+    .products-section .btn{
+        width: 60%;
+    }
+    .product-box{
+        width: 60%;
+        margin-left: -10%;
+    }
+    h3{
+        font-size: 80%;
+    }
+    .product-box ul li{
+        margin-left: 5%;
+    }
+    .products-section .row .span-1-of-3{
+        width: 30%;
+        margin-right: -10%;
+    }
+
+    .testimonials-section .row .span-1-of-3{
+        width: 20%;
+    }
+    .sponsors-section .row .sponsors-showcase{
+        width: 50%;
+
+    }
+    .contact-section form{
+        margin-left: -20px;
+    }
+    .contact-section .row{
+        font-size: 15px;
+    }
+    .contact-section .row .span-1-of-3{
+        width: 22%;
+    }
+    .contact-section .row .span-2-of-3{
+        width: 50%;
+    }
+    
+}
+
+@media only screen and (max-width:767px){
+ .col{
+   width: 100%;
+ }
+ .main-nav{
+        visibility: hidden;
+ }
+ .logo{
+     width: 350px;
+     margin-left: 13%;
+ }
+ h1{
+     word-spacing: 2px;
+     font-size: 250%;
+ }
+ .heading-main-box{
+    transform: translate(-19%,-50%);
+ }
+ .heading-main-box .btn{
+     width: 15%;
+ }
+ .about-picture{
+     margin-left: 5%;
+ }
+ .about-picture{
+     width: 70%;
+ }
+ .h2{
+     text-align: center;
+ }
+ .about-section .row h2{
+     width: 110%;
+ }
+ .about-section .row .p-long{
+     font-size: 15px;
+     width: 40%;
+ }
+ .products-section .row .span-1-of-3{
+     width: 50%;
+     margin-right: 0;
+ }
+ .products-section .btn{
+     width: 40%;
+ }
+ .testimonials-section .row .span-1-of-3{
+     width: 100%;
+     font-size: 15px;
+ }
+ .testimonials-section .row .span-1-of-3 blockquote{
+    width: 38%;
+    margin-left: -40px;
+}
+.sponsors-section .row{
+    width: 250%;
+    margin-left: -90px;
+}
+.sponsors-section .row .sponsors-showcase .logo-sponsor{
+    width: 80%;
+}
+ .contact-section .row .span-1-of-3{
+     width: 100%;
+ }
+ .contact-section .row .span-2-of-3{
+     width: 50%;
+ }
+ .contact-section .row .span-2-of-3 .span-2-of-3{
+     width: 70%;
+     margin-left: 20%;
+ }
+ .contact-section .btn{
+     width: 10%;
+ }
+}
+
+@media only screen and (max-width:480px){
+ html{
+     font-size: 12px;
+ }
+ .logo{
+     width: 250px;
+     margin-top: 20px;
+     margin-left: 20%;
+ }
+ h1{
+     font-size: 200%;
+ }
+ .heading-main-box{
+     transform: translate(-10%,-50%);
+ }
+
+ .heading-main-box .btn{
+     display: block;
+     margin-bottom: 20px;
+     margin-left: 2%;
+ }
+ .about-picture{
+    margin-left: 1%;
+}
+.about-picture{
+    width: 60%;
+}
+.about-section .row h2{
+    width: 95%;
+}
+.about-section .row .p-long{
+    font-size: 15px;
+    width: 30%;
+}
+.products-section .row .span-1-of-3{
+    width: 40%;
+    margin-right: 50%;
+    margin-left: 2%;
+}
+.products-section .btn{
+    width: 40%;
+}
+.testimonials-section .row .span-1-of-3{
+    width: 100%;
+    font-size: 10px;
+    padding: 20px;
+}
+.testimonials-section .row .span-1-of-3 blockquote{
+   width: 25%;
+   margin-left: -40px;
+}
+.contact-section .row .span-1-of-3{
+    width: 100%;
+}
+.contact-section .row .span-2-of-3{
+    width: 50%;
+}
+.contact-section .row .span-2-of-3 .span-2-of-3{
+    width: 70%;
+    margin-left: 16%;
+}
+.contact-section .btn{
+    width: 10%;
+    margin-left: -100px;
+}
+}
+
+
